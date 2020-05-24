@@ -1,0 +1,492 @@
+{
+  "id": "b3f48fae-a48e-4db6-9b15-9c3dc8b27134",
+  "version": "2.0",
+  "name": "Test2",
+  "url": "http://localhost/Online-Notes-Sharing/src/",
+  "tests": [{
+    "id": "4bca7a78-a0c0-41e7-9106-c35929f87a54",
+    "name": "UserTest",
+    "commands": [{
+      "id": "66f6db57-09eb-45a8-b75f-3fede99ea2f7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Online-Notes-Sharing/src/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b42ca23-a633-4e51-a85b-0ed73e13ea4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdbfd2db-fc7d-4528-b3e4-5b1adb7e8c88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07c4071-f341-483d-a6c5-e31985fea610",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Username / Password?",
+      "targets": [
+        ["linkText=Username / Password?", "linkText"],
+        ["css=.txt2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Username / Password?')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[5]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Username / Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e7c7258-f5cd-4291-8a82-d142cd50a264",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=.wrap-input100:nth-child(2) > .input100", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4cc3231-cd6a-4085-b0e3-48d2233b7641",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=.wrap-input100:nth-child(2) > .input100", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "harsha"
+    }, {
+      "id": "e1faf95f-e204-4cc8-985f-bd1514b920a8",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.wrap-input100:nth-child(3) > .input100", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "harsha"
+    }, {
+      "id": "945977b3-650f-4c31-bd6e-41b7e52362ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.login100-form-btn", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "848ad9d7-105c-431e-96ab-672b178e344c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=.w3-container:nth-child(1) > a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/form/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'allfiles/38391.pdf')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8584",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7a8cda8-27d5-474e-bcb4-65c1a0ee6db4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4939bc44-d1d3-46d5-9b0e-9bc81e1abfae",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8584}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c90fddf-2634-4d95-8ad6-5a6457cb032e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e189eaa-6316-4017-826e-e99c25eed366",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e29a971-6429-4a19-906f-e1040f0b50c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df24a5d-a11e-47ff-9b78-f1e37e1c1036",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Notes",
+      "targets": [
+        ["linkText=My Notes", "linkText"],
+        ["css=.navbar-nav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Notes')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' My Notes ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22cc72e8-a98d-496c-ba8c-63e029d05bd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All Notes",
+      "targets": [
+        ["linkText=View All Notes", "linkText"],
+        ["css=#user > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View All Notes')]", "xpath:link"],
+        ["xpath=//ul[@id='user']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './notes.php')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View All Notes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b3eb38-a068-4c5d-bcf5-1f79fecf9f3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Notes",
+      "targets": [
+        ["linkText=My Notes", "linkText"],
+        ["css=.navbar-nav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Notes')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' My Notes ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b33716-e0f0-4167-8304-0cdd00efb746",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Upload Note",
+      "targets": [
+        ["linkText=Upload Note", "linkText"],
+        ["css=#user > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Upload Note')]", "xpath:link"],
+        ["xpath=//ul[@id='user']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, './uploadnote.php')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Upload Note')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b45d2fe-2618-4eea-8a96-4250e47c3cdd",
+      "comment": "",
+      "command": "click",
+      "target": "name=upload",
+      "targets": [
+        ["name=upload", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='upload']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload Note')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b60002fc-1967-4d1d-a9c9-0b2f131d96b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=li:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' My Account ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e088f5-1c78-4333-8459-239ec3479c80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit Profile",
+      "targets": [
+        ["linkText=Edit Profile", "linkText"],
+        ["css=#posts > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit Profile')]", "xpath:link"],
+        ["xpath=//ul[@id='posts']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, './userprofile.php?section=harsha')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e530ab7-4651-400a-9382-46cebadd7e57",
+      "comment": "",
+      "command": "click",
+      "target": "name=update",
+      "targets": [
+        ["name=update", "name"],
+        ["css=.btn:nth-child(10)", "css:finder"],
+        ["xpath=//button[@name='update']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div/div/form[2]/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update User')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ed24099-9116-4c72-ae3d-018024b8595a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=UPLOAD",
+      "targets": [
+        ["linkText=UPLOAD", "linkText"],
+        ["css=.navbar-right > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'UPLOAD')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './uploadnote.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'UPLOAD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d349c16-2865-46f7-8c4f-1c8c789436b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=harsha",
+      "targets": [
+        ["linkText=harsha", "linkText"],
+        ["css=.dropdown > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'harsha')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' harsha ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3612cd0-ea40-4342-9e92-0c0de771a61c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './userprofile.php?section=harsha')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb07c87-a42d-495f-853d-37c1d2853d49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=li:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' My Account ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55453603-f963-4b19-b901-5de14704d10f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Profile",
+      "targets": [
+        ["linkText=View Profile", "linkText"],
+        ["css=#posts > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Profile')]", "xpath:link"],
+        ["xpath=//ul[@id='posts']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './viewprofile.php?name=harsha')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60cb49b5-7dba-4c00-bf76-ec294596926a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=li:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' My Account ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "951bbc53-c99f-4581-a33a-cabcdb1ddc89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit Profile",
+      "targets": [
+        ["linkText=Edit Profile", "linkText"],
+        ["css=#posts > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit Profile')]", "xpath:link"],
+        ["xpath=//ul[@id='posts']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, './userprofile.php?section=harsha')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94decaf3-6a18-4201-8273-37b08a45d013",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=harsha",
+      "targets": [
+        ["linkText=harsha", "linkText"],
+        ["css=.dropdown > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'harsha')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' harsha ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79f71c2-9a86-4e84-97bd-09272f354959",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//div[@id='wrapper']/nav/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../logout.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "269e2292-ab42-4fc1-89c2-a26c84462a67",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Notes Sharing Website",
+      "targets": [
+        ["linkText=Notes Sharing Website", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Notes Sharing Website')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Notes Sharing Website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af80851e-bac4-4e89-ae23-37059a19fd09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c8d817e-7968-437c-aa4d-50c836bc0953",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'signup.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54a75020-55b9-4898-967c-b58a7e89a3e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd0d26c-bd82-4827-81c7-1546531faf6d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f303041-5437-4cb7-b898-2d19cac842e7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4bca7a78-a0c0-41e7-9106-c35929f87a54"]
+  }],
+  "urls": ["http://localhost/Online-Notes-Sharing/src/"],
+  "plugins": []
+}
